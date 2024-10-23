@@ -1,0 +1,48 @@
+name: test_youtube
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The Cupertino Icons font to your application (for iOS-style icons)
+  cupertino_icons: ^1.0.8
+
+  # Adding url_launcher package for opening YouTube URLs
+  url_launcher: ^6.0.20
+
+  # Google APIs package for accessing Google services
+  googleapis: ^13.2.0
+
+  # Google authentication package for managing OAuth 2.0 flows
+  googleapis_auth: ^1.4.0
+
+  # Google Sign-In package for authentication via Google accounts
+  google_sign_in: ^6.0.0
+
+  # HTTP package for making network requests
+  http: 1.2.2
+
+  # Video player package for playing videos
+  video_player: ^2.4.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/youtube.png
+    - assets/images/notif.png
+    - assets/images/search.png
+    - assets/images/you.png
